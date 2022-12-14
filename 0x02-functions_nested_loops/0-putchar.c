@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-int main(void)/*prints string literal from the header file*/
+/*prints string literal from the header file*/
+int main(void)
 {
 	printf("%s\n", output);
 
