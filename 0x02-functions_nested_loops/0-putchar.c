@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * prints string literal from the header file
- */
+* main - prints string literal from the header file
+* Return: 0
+*/
 
 int main(void)
 {
