@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main - prints small letter alphabet
@@ -9,11 +10,6 @@
 
 int main(void)
 {
-	int i = 97;
-	while(i<123)
-	{
-		printf("%c",i);
-		i++;
-	}
+	print_alphabet();
 	return (0);
 }
